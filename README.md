@@ -1,8 +1,10 @@
 Copyright 2012 - The CyanogenMod Project
+
 Copyright 2017 - The LineageOS Project
+
 Copyright 2020 - Alexenferman
 
-Device configuration for Galaxy S3 (Qualcomm Variants)
+Device configuration for Canada and US Galaxy S3
 =====================================
 
 Basic   | Spec Sheet
