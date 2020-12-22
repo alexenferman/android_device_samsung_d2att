@@ -1,7 +1,8 @@
 $(call inherit-product, device/samsung/d2att/full_d2att.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk) 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=d2uc \
